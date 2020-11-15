@@ -28,9 +28,7 @@ body {
     font-family: Menlo, Arial, Helvetica, sans-serif;
   }
   
-  .active, .dropdown-menu .dropdown-item:active a:hover {
-    background-color: white;
-  }
+
   .dropdown-item {
     color:black;
   }
@@ -47,11 +45,8 @@ body {
   .navbar-brand:hover {
   color: bisque;
   }
-  a {
-    color: #E7E7E7;
-    font-size: 20px;
-  }
   
+
 
   /* Images */
   img{
@@ -59,13 +54,7 @@ body {
     height:100%;
   }
   
-  
-  .active, .panel:hover {
-    border-color:rgb(255, 196, 0);
-    border-style: solid;
-    
-  }
-  
+
   .vizualization {
     width:50%;
     height:50%;
@@ -102,10 +91,14 @@ body {
     border-top-color: rgb(255, 255, 255);
   }
   
-
-  
+  .footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
   /* Media Queries */
-  @media(max-width: 992px) {
+  @media(max-width: 900px) {
     .navbar-expand-lg {
     background-color: #000000;
     }
